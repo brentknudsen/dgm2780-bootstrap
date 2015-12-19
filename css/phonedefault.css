@@ -1,0 +1,122 @@
+/*-----Prevents iPhone from resizing in landscape mode -----*/
+html {-webkit-text-size-adjust: none; }
+
+/*----------- apply a natural box layout model to all elements --------------*/
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+/*-----BODY -----*/
+body {
+	font-size: 16px;	
+}
+
+
+/*-----CONTAINER -----*/
+.container {
+	background-color: #b2813a;   /*becomes the nav background color*/
+	
+}
+
+/*-----HEADER -----*/
+header {}
+.container header h1 {
+	text-align: left;
+	font-family: 'Courgette', cursive;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	color: #4c89b2;
+	text-shadow: 4px 4px 20px #d2ffef;
+}
+header h2 {
+	font-family: 'Gochi Hand', cursive;
+	font-size: 2.25em;
+	margin-bottom: 10px;
+	color: #86cfff;
+	
+}
+
+/*---Flex Slider---*/
+
+.flex-caption {
+  width: 96%;
+  padding: 2%;
+  left: 0;
+  bottom: 0;
+  background: rgba(0,0,0,.5);
+  color: #fff;
+  text-shadow: 0 -1px 0 rgba(0,0,0,.3);
+  font-size: 18px;
+  line-height: 18px;
+  font-family: 'Gochi Hand', cursive;
+  text-align: center;
+}
+
+
+/*-----NAVigation -----*/
+.container .navbar-brand {
+	color: #86cfff;
+	font-family: 'Raleway', sans-serif;
+}
+#navbar li {
+	background-color: #4c89b2;
+	color: white;
+	font-family: 'Raleway', sans-serif;
+}
+
+nav {}
+nav ul li {}
+nav ul li a {
+	display:block;
+	background-color:#ccc;
+}
+nav ul li a:hover {
+	background-color:#999;
+}
+
+
+
+/*-----CONTENT -----*/
+#content {
+	min-height: 5em;
+}
+p {
+	font-family: 'Raleway', sans-serif;
+}
+.col-md-4 h2 {
+	font-family: 'Gochi Hand', cursive;
+	font-size: 1.5em;
+	margin-bottom: 5px;
+	color: #86cfff;
+}
+.col-sm-4 {
+	width: 25%;
+		
+}
+.col-sm-4 figure img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.btn btn-default {
+	text-align: center;
+}
+
+#accordion h4 a {
+	font-family: 'Gochi Hand', cursive;
+	font-size: 1.5em;
+	color: #4c89b2;
+	text-decoration: none;
+}
+.panel-body {
+	background-color: #4c89b2;
+	border-radius: 5px;
+	color: #86cfff;
+}
+
+/*----- FOOTER -----*/
+footer {
+	clear: both;
+	text-align: center;
+	padding: 1em;
+	color: #86cfff;
+}
